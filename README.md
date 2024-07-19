@@ -1,9 +1,9 @@
 
-<h1 align="center">🎥 Tic-Tac-Toe | Never a Tie 🎥</h1>
+<h1 align="center">✨ Tic-Tac-Toe | Never a Tie ✨</h1>
 
 ## Overview
 
-This Video-To-GIF-Converter web app is built using React.js and Express.js. It provides a simple and intuitive way to convert video files to GIFs. With an easy-to-use interface, you can quickly upload your video, set the start and end times, and generate a GIF from the selected portion. The app processes the video and allows you to download the resulting GIF with just one clicks. This tool is perfect for anyone looking to create GIFs from their favorite videos quickly and easily.
+This Tic-Tac-Toe game, built with React.js, offers an engaging twist on the classic board game. Players alternate turns as "X" or "O" on a 3x3 grid, with each player limited to three symbols on the board at a time, causing the oldest move to be removed upon a fourth move. The game features real-time feedback for invalid moves, customizable player names, and interactive instructions accessed by pressing 'H'. The first player to align three of their symbols wins, with victory conditions and moves highlighted through dynamic animations. The app integrates SweetAlert2 for user-friendly alerts and EmailJS for additional notifications, providing an enjoyable and interactive gaming experience.
 
 ### UI 
 ![image](./src/assets/UI.png) 
@@ -13,12 +13,12 @@ This Video-To-GIF-Converter web app is built using React.js and Express.js. It p
 - Clone the Repository
 
 ```
-git clone https://github.com/DileepGhanta/Video-To-GIF-Converter.git
+git clone https://github.com/DileepGhanta/Tic-Tac-Toe.git
 ```
 - Change directory
 
 ```
-cd Video-To-GIF-Converter
+cd Tic-Tac-Toe
 ```
 - Install node_modules 
 ```
@@ -26,16 +26,12 @@ npm install
 ```
 - Install Dependencies 
 ```
-npm install @ffmpeg/core @ffmpeg/ffmpeg bootstrap cors express file-saver fluent-ffmpeg multer node-fetch react react-dom react-dropzone react-icons styled-components sweetalert
+npm install @emailjs/browser emailjs-com mdb-react-ui-kit react react-dom sweetalert2 sweetalert
 ```
 
-- Download ffmpeg from [ffmpeg](https://www.ffmpeg.org/download.html), install it for Windows, extract the folder, rename it to ffmpeg, copy the bin folder path, and add the path to environment variables.
+- To set up EmailJS, follow the instructions provided [here](https://dev.to/david_bilsonn/how-to-send-emails-directly-from-your-react-website-a-step-by-step-tutorial-144b).
 
-- Start LocalHost Server & Express server
+- Start LocalHost Server
 ```
 npm run dev
-node server.js
 ```
-
-Note:
-Please note that this application is currently not responsive and is best viewed on desktop or larger screens.
