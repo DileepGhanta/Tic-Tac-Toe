@@ -118,7 +118,7 @@ function Game() {
             });
             setXTurn(false);
             const img = document.createElement('img');
-            img.setAttribute('src', './src/assets/Cross.svg');
+            img.setAttribute('src', '/assets/Cross.svg');
             e.target.appendChild(img);
             setXMoves([...xMoves, e.target]);
         } else {
@@ -142,7 +142,7 @@ function Game() {
             });
             setXTurn(true);
             const img = document.createElement('img');
-            img.setAttribute('src', './src/assets/Circle.svg');
+            img.setAttribute('src', '/assets/Circle.svg');
             e.target.appendChild(img);
             setOMoves([...oMoves, e.target]);
         }

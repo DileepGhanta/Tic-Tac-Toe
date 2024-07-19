@@ -6,7 +6,7 @@
 This Tic-Tac-Toe game, built with React.js, offers an engaging twist on the classic board game. Players alternate turns as "X" or "O" on a 3x3 grid, with each player limited to three symbols on the board at a time, causing the oldest move to be removed upon a fourth move. The game features real-time feedback for invalid moves, customizable player names, and interactive instructions accessed by pressing 'H'. The first player to align three of their symbols wins, with victory conditions and moves highlighted through dynamic animations. The app integrates SweetAlert2 for user-friendly alerts and EmailJS for additional notifications, providing an enjoyable and interactive gaming experience.
 
 ### UI 
-![image](./src/assets/Cross.svg) 
+![image](./src/assets/UI.png) 
 
 ## Setup Steps
 
