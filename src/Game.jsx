@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import './Game.css';
 import Swal from 'sweetalert2';
 import emailjs from '@emailjs/browser';
+import CrossSvg from './assets/Cross.svg'; 
+import CircleSvg from './assets/Circle.svg';
 
 function Game() {
     const [player1, setPlayer1] = useState("X");
@@ -118,7 +120,7 @@ function Game() {
             });
             setXTurn(false);
             const img = document.createElement('img');
-            img.setAttribute('src', '/assets/Cross.svg');
+            img.setAttribute('src', CrossSvg);
             e.target.appendChild(img);
             setXMoves([...xMoves, e.target]);
         } else {
@@ -142,7 +144,7 @@ function Game() {
             });
             setXTurn(true);
             const img = document.createElement('img');
-            img.setAttribute('src', '/assets/Circle.svg');
+            img.setAttribute('src', CircleSvg);
             e.target.appendChild(img);
             setOMoves([...oMoves, e.target]);
         }
